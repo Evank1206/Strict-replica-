@@ -172,3 +172,75 @@ footer p{
 	font-size: 22px;
 	color: black;
 }
+
+@media screen and (max-width:1526px){
+	body{
+		background-color: blue;
+	}
+
+	 #features {
+	 	background-color: blue;
+/* 	 display: grid;
+  	 grid-template-columns: auto auto auto;
+ 	 grid-row-gap: 5px;*/
+ 	 grid-column-gap: 64px;
+/* 	 padding: 8px;
+ 	 height: 257px;*/
+ 	}
+
+ /*#features div{
+ 	 text-align: center;
+ 	 padding: 36px;
+   	 font-size: 0px;
+ 	
+
+ 	}*/
+
+}
+@media screen and (max-width:1460px){
+	body{
+		background-color: green;
+	}
+
+	 #features {
+	 	background-color: blue;
+/* 	 display: grid;
+  	 grid-template-columns: auto auto auto;
+ 	 grid-row-gap: 5px;*/
+ 	 grid-column-gap: 0px;
+/* 	 padding: 8px;
+ 	 height: 257px;*/
+ 	}
+
+ /*#features div{
+ 	 text-align: center;
+ 	 padding: 36px;
+   	 font-size: 0px;
+ 	
+
+ 	}*/
+
+}
+
+@media screen and (max-width:1430px){
+
+	 #features {
+	 	background-color: orange;
+/* 	 display: grid;
+  	 grid-template-columns: auto auto auto;
+ 	 grid-row-gap: 5px;*/
+ 	 grid-column-gap: 0px;
+ 	 padding: 0px;
+ 	 
+ 	 height: 257px;
+ 	}
+
+ /*#features div{
+ 	 text-align: center;
+ 	 padding: 36px;
+   	 font-size: 0px;
+ 	
+
+ 	}*/
+
+}
