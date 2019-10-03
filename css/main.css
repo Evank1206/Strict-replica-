@@ -1,0 +1,174 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	background-color: lightgrey;
+	height: 100px;
+}
+header img{
+	position: relative;
+	margin: 24px;
+	padding: 5px;
+	left: 30px;
+}
+#bar{
+	background-image: url(../img/background.jpg);
+}
+#bar h1{
+    position: absolute;
+    font-size: 140px;
+    color: white;
+    top: 19%;
+    right: 36%;
+    
+}
+#bar hr{
+	position: absolute;
+    border-color: red;
+    border-width: 3px;
+    width: 50%;
+    top: 50%;
+    left: 25%;
+    
+}
+
+#bar p{
+	position: absolute;
+    color: white;
+    width: 50%;
+    top: 54%;
+    left: 39%;
+}
+#bar button{
+	position: absolute;
+    color: white;
+    width: 6%;
+    height: 36px;
+    top: 65%;
+    left: 46%;
+
+}
+#bar i{
+    position: absolute;
+    font-size: 51px;
+    font-weight: normal;
+    color: red;
+    top: 79%;
+    left: 48%;
+}
+
+#info .top{
+	padding: 1px;
+	position: relative;
+	text-align: center;
+	background-color: lightgrey;
+	height: 165px;
+
+}
+#info .bottom {
+	 display: grid;
+  	 grid-template-columns: auto auto auto;
+ 	 grid-row-gap: 5px;
+ 	 grid-column-gap: 96px;
+ 	 /*background-color:;*/
+ 	 padding: 10px;
+ 	 height: 257px;
+}
+ #info .bottom div{
+ 	 background-color: white;
+ 	 text-align: center;
+ 	 padding: 20px;
+ 	 font-size: 13px;
+ }
+
+ #info .bottom button{
+ 	font-size: 66px;
+ 	background-color: lightblue;
+ }
+ .text{
+ 	text-align: center;
+ }
+
+ #features {
+ 	 display: grid;
+  	 grid-template-columns: auto auto auto;
+ 	 grid-row-gap: 5px;
+ 	 grid-column-gap: 96px;
+ 	 padding: 10px;
+ 	 height: 257px;
+ }
+ #features div{
+ 	 text-align: center;
+ 	 padding: 36px;
+   	 font-size: 0px;
+ }
+ #contact{
+ 	position: relative;
+ 	background-color: lightblue;
+ 	top:401px;
+ 	height: 460px;
+ 	text-align: center;
+ }
+#contact form{
+	position: relative;
+	border-color: white;
+	display: block;
+}
+#contact form input, textarea{
+	background-color: transparent;
+	border-radius: 2px;
+	border: 1px solid #f6f9f9;
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	margin: 10px auto;
+	padding: 10px;
+	width: 30%;
+}
+#contact form span{
+	font-size: 16px;
+	display: block;
+}
+#contact form button{
+	font-size: 36px;
+	border-radius: 0px;
+	/*color: lightblue;*/
+	background-color: transparent;
+    border-color: white
+}
+#contact h1 p form{
+	margin: 0px;
+	padding: 0px;
+	height: 0px;
+}
+footer{
+	background-color: lightgrey;
+	position: relative;
+	top: 384px;
+	height: 100px;
+	
+}
+footer .socialmedia{
+	position: relative;
+	float: right;
+	font-size: 50px;
+	right: 103px;
+	bottom: 2px;
+	color: #34ebe5;
+
+}
+.socialmedia i{
+	letter-spacing: 47px;
+
+}
+footer p{
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	top: 37px;
+	left: 125px;
+	font-weight: 0px;
+	font-size: 22px;
+	color: black;
+}
